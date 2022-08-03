@@ -1,2 +1,5 @@
-for i in range(0, 5):
-  print(i)
+a = ""
+a += "b"
+a += "c"
+
+print(a)
