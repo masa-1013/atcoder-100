@@ -1,6 +1,8 @@
+times = 1
+
 def a(x):
-  y = 1
+  times += 1
   if (True):
-    return y
+    return times
 
 print(a(10))
